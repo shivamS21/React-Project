@@ -1,0 +1,78 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 484px;
+    margin-top: 75px;
+}
+
+.contact-button {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    height: 44px;
+    justify-content: space-between;
+}
+.contact-button button {
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 220px;
+}
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+.email {
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.submit-button {
+    margin-left: auto;
+    margin-right: 5%;
+    height: 44px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto; /* Done in order to place the element in center horizontally*/
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+}
+.form-control input {
+    height: 40px;
+    padding: 0px 8px;
+}
+
+.form-control label {
+    position: absolute; 
+    /* when needed to move the child element wrt to the parent container, declare parent container's position as relative and child'd position as absolute*/
+    top: -12px;
+    left: 10px;
+    padding: 0px 2px;
+    background-color: white;
+}
+
+.form-control textarea {
+    padding: 10px 8px;
+    resize: vertical;
+}

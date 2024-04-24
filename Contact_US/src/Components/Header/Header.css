@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0px 8px;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    float: right;
+    font-weight: 500;
+}
+
+.container label {
+    font-size: 45px;
+    font-weight: 500;
+}
+
