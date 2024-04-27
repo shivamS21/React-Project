@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    max-width: 1180px;
+    height: 100vh;
+    gap: 5px;
+    margin: 0 auto; /* Centers the div*/
+    align-items: center;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 288px;
+    width: 528px;
+    gap: 10px;
+}
+.main-content h1 {
+    font-size: 96px;
+    white-space: nowrap; /* Text content comes in single line*/
+    font-weight: 800;
+    margin: 0px;
+    color: black;
+}
+
+.main-content button {
+    margin-left: auto;
+    color: white;
+    min-width: 220px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease-in; /* Animation while hovering*/
+    &:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        transition: 0.3s ease-out;
+    }
+}

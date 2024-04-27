@@ -1,0 +1,81 @@
+.interface {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    height: calc(100vh-151px-36px);
+    max-width: 500px;
+    gap: 36px;
+    align-items: center;
+}
+
+.dice {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.instruction {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px auto;
+}
+
+.play-button {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0px auto;
+}
+
+.play-button-dim {
+    width: 220px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    transition: 0.4s ease-in; /* Animation while hovering*/
+    &:hover {
+        background-color: #484848;
+        border: 1px solid black;
+        transition: 0.3s ease-out;
+    }
+}
+.reset-score {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    &:hover {
+        background-color: #C8C8C8;
+    }
+}
+
+.show-rules {
+    background-color: black;
+    color: white;
+}
+
+.rules {
+    background-color: #FBF1F1;
+    width: 794px;
+    height: 208px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rules h3 {
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.detail-rules {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.detail-rules p {
+    font-size: 16px;
+}

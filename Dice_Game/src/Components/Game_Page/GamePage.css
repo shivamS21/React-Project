@@ -1,0 +1,66 @@
+.game-page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.game-warning {
+    margin-left: auto;
+    color: #FF0C0C;
+    font-size: 24px;
+}
+
+.score-header {
+    display: flex;
+    gap: 593px;
+    max-height: 151px;
+    align-items: center;
+}
+
+.score {
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+}
+
+.total-score {
+    height: 112px;
+    font-size: 100px;
+    font-weight: 600;
+    white-space: nowrap;
+    margin: 0px auto;
+}
+
+.text-score {
+    font-size: 24px;
+    color: gray;
+    height: 36px;
+    white-space: nowrap;
+}
+
+.dice-values {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.dice-text {
+    margin: 0px auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.game-ui {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
