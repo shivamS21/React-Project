@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        powerButton: '#1f2937',
+      },
+    },
   },
   plugins: [],
 }
